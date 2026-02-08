@@ -164,7 +164,8 @@ Rate limiting login attempts
 
 Account lock after failed attempts
 
-📷 ##Screenshots
+📷
+##Screenshots
 
 
 
@@ -179,11 +180,6 @@ Account lock after failed attempts
 
 
 
-<img width="500" height="500" alt="Screenshot 2026-02-08 200226" src="https://github.com/user-attachments/assets/3b3890fe-b995-40a1-adbb-9b7bbf2e3db7" />
+<img width="400" height="400" alt="Screenshot 2026-02-08 200226" src="https://github.com/user-attachments/assets/3b3890fe-b995-40a1-adbb-9b7bbf2e3db7" />
 
 
-Secure cookies (HTTPOnly, Secure)
-
-HTTPS enforcement
-
-XSS filtering
