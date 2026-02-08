@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="box">
+    <h2>Your Private Notes</h2>
+
+    <form method="POST">
+        <textarea name="note" placeholder="Write secure note..." required></textarea>
+        <button>Add Note</button>
+    </form>
+
+    <ul>
+        {% for note in notes %}
+            <li>{{ note[0] }}</li>
+        {% endfor %}
+    </ul>
+
+    <a href="/logout">Logout</a>
+</div>
+</body>
+</html>
